@@ -2,6 +2,7 @@
 .flex {
     display: flex;
     justify-content: row;
+    align-items: center;
 }
 
 .button{
@@ -61,6 +62,67 @@ header{
     margin-left:30%;
     background-color: #023047;
     color: white;
+}
+.body2{
+    margin:10 px;
+    flex-wrap: wrap;
+}
+.img1{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.img2{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 15%;
+}
+.img3{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 15%;
+}
+.img4{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.img5{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 10px;
+}
+.img6{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 10px;
+}
+.img7{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.img8{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 10px;
+}
+.img9{
+
+    width: 25%;
+    margin: 10px;
+    margin-top: 10px;
 }
 @media screen and (max-width: 575px) {
     .flex{
