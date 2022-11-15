@@ -15,17 +15,53 @@
 .button:hover{
     background-color: #219EBC;
 }
-.header{
+.top{
     height: 50px;
     position: fixed;
-    
+    margin-top: 0%;
 }
 header{
     background-color: #023047;
     width: 100%;
-    color: white
+    color: white;
+    margin: auto;
 }
-
+.moon{
+    background-image: url("../img/moon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 1564px;
+}
+.body{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20%;
+    font-size: 15px;
+}
+.body-center{
+    background-color: #8ecae6 ;
+    border: 5px solid ;
+    border-color: #023047;
+    border-radius: 10px;
+    
+}
+.h1{
+    font-size: 40px;
+    margin-left: 30%;
+    color: black;
+}
+.text{
+    margin-left: 30%;
+    color: black;
+}
+.button2{
+    margin-left:30%;
+    background-color: #023047;
+    color: white;
+}
 @media screen and (max-width: 575px) {
     .flex{
         flex-direction: column;
@@ -36,7 +72,10 @@ header{
     }
     .button{
         width: 100%;
-        margin-top: 20px;
+        height: 20px;
         margin-bottom: 20pxs;
+    }
+    .h1{
+        font-size: 15px;
     }
 }
