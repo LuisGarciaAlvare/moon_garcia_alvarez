@@ -28,7 +28,7 @@ header{
     margin: auto;
 }
 .moon{
-    background-image: url("/img/moon.jpg");
+    background-image: url("../img/moon.jpg");
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
